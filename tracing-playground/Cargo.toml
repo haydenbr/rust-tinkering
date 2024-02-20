@@ -1,0 +1,13 @@
+[package]
+name = "tracing"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tracing-subscriber = { version = "0.3.17", features = ["std", "fmt", "json", "env-filter"] }
+tracing = "0.1.37"
+uuid = { version = "1.4.1", features = ["v4"] }
+dotenv = "0.15.0"
+serde_json = "1.0.107"
